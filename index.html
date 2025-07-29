@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Excello Engineering</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <!-- <meta
+      http-equiv="refresh"
+      content="0; url=http://127.0.0.1:5500/sorry.html"
+    /> -->
+
+    <!-- Favicon -->
+    <link rel="icon" href="img\excello-icon.png" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link rel="stylesheet" href="lib/owlcarousel/assets/owl.carousel.min.css" />
+    <link
+      href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+
+    <style>
+      /* Header logo */
+      .logo-area {
+        background: white !important;
+      }
+
+      /* Client carousel */
+      .logo-container {
+        /* border: 1px solid black; */
+        width: 250px;
+        height: 150px;
+      }
+
+      #clients {
+        text-align: center;
+      }
+
+      .client-section-heading {
+        margin-bottom: 25px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Header Start -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3 bg-secondary d-none d-lg-block logo-area">
+          <a
+            href="index.html"
+            class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center"
+          >
+            <!-- <h1 class="m-0 display-4 text-primary text-uppercase">excello</h1> -->
+            <img src="img\excello-logo6.png" alt="excello-logo" />
+          </a>
+        </div>
+        <div class="col-lg-9">
+          <div class="row bg-white border-bottom d-none d-lg-flex">
+            <div class="col-lg-7 text-left">
+              <div class="h-100 d-inline-flex align-items-center py-2 px-3">
+                <i class="fa fa-envelope text-primary mr-2"></i>
+                <small>info@excelloengineering.com</small>
+              </div>
+              <div class="h-100 d-inline-flex align-items-center py-2 px-2">
+                <i class="fa fa-phone-alt text-primary mr-2"></i>
+                <small>+233 30 294 4325 / +233 24 668 6623</small>
+              </div>
+            </div>
+            <div class="col-lg-5 text-right">
+              <div class="d-inline-flex align-items-center p-2">
+                <div class="h-100 d-inline-flex align-items-center py-2 px-2">
+                  <small
+                    ><strong
+                      >Working hours: 8am - 5pm (Mon to Fri)</strong
+                    ></small
+                  >
+                </div>
+                <!-- <a
+                  class="btn btn-sm btn-outline-primary btn-sm-square mr-2 social"
+                  href=""
+                >
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a
+                  class="btn btn-sm btn-outline-primary btn-sm-square mr-2 social"
+                  href=""
+                >
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a
+                  class="btn btn-sm btn-outline-primary btn-sm-square mr-2 social"
+                  href=""
+                >
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a
+                  class="btn btn-sm btn-outline-primary btn-sm-square mr-2 social"
+                  href=""
+                >
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a
+                  class="btn btn-sm btn-outline-primary btn-sm-square mr-2 social"
+                  href=""
+                >
+                  <i class="fab fa-youtube"></i>
+                </a> -->
+              </div>
+            </div>
+          </div>
+          <nav class="navbar navbar-expand-lg bg-white navbar-light p-0">
+            <a href="index.html" class="navbar-brand d-block d-lg-none">
+              <img src="img/excello-logo6.png" alt="excello-logo" />
+            </a>
+            <button
+              type="button"
+              class="navbar-toggler"
+              data-toggle="collapse"
+              data-target="#navbarCollapse"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-between"
+              id="navbarCollapse"
+            >
+              <div class="navbar-nav mr-auto py-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="index.html#clients" class="nav-item nav-link"
+                  >Clients</a
+                >
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="#services" class="nav-item nav-link">Services</a>
+                <a href="#team" class="nav-item nav-link">Our Team</a>
+                <a href="gallery.html" class="nav-item nav-link">Gallery</a>
+                <a href="contact.html#direction" class="nav-item nav-link"
+                  >Direction</a
+                >
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+              </div>
+              <a href="#services" class="btn btn-primary mr-3 d-none d-lg-block"
+                >Our Services</a
+              >
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5 pb-5">
+      <div
+        id="header-carousel"
+        class="carousel slide carousel-fade"
+        data-ride="carousel"
+      >
+        <!-- Carousel 1 -->
+        <div class="carousel-inner">
+          <div
+            class="carousel-item position-relative active"
+            style="height: 100vh; min-height: 400px"
+          >
+            <img
+              class="position-absolute w-100 h-100"
+              src="img\carousel1.jpg"
+              style="object-fit: cover"
+            />
+            <div
+              class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="p-3" style="max-width: 900px">
+                <!-- <h4
+                  class="text-white text-uppercase mb-4"
+                  style="letter-spacing: 3px"
+                >
+                  Best Law Agency
+                </h4> -->
+                <h3 class="display-2 text-white mb-4">
+                  LPG Engineering Services
+                </h3>
+                <a class="btn btn-primary py-3 px-5 mt-2" href="#services"
+                  >SEE ALL SERVICES</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Carousel 2 -->
+          <div
+            class="carousel-item position-relative"
+            style="height: 100vh; min-height: 400px"
+          >
+            <img
+              class="position-absolute w-100 h-100"
+              src="img\carousel2.jpg"
+              style="object-fit: cover"
+            />
+            <div
+              class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="p-3" style="max-width: 900px">
+                <!-- <h4
+                  class="text-white text-uppercase mb-4"
+                  style="letter-spacing: 3px"
+                >
+                  We deliver on our mandate
+                </h4> -->
+                <h3 class="display-2 text-white mb-4">Lead Industry Experts</h3>
+                <a class="btn btn-primary py-3 px-5 mt-2" href="#services"
+                  >SEE ALL SERVICES</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Carousel 3 -->
+          <div
+            class="carousel-item position-relative"
+            style="height: 100vh; min-height: 400px"
+          >
+            <img
+              class="position-absolute w-100 h-100"
+              src="img\carousel3.jpeg"
+              style="object-fit: cover"
+            />
+            <div
+              class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="p-3" style="max-width: 900px">
+                <!-- <h4
+                  class="text-white text-uppercase mb-4"
+                  style="letter-spacing: 3px"
+                >
+                  We deliver on our mandate
+                </h4> -->
+                <h3 class="display-2 text-white mb-4 experience"></h3>
+                <a class="btn btn-primary py-3 px-5 mt-2" href="#services"
+                  >SEE ALL SERVICES</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#header-carousel"
+          data-slide="prev"
+        >
+          <div class="btn btn-lg btn-secondary btn-lg-square">
+            <span class="carousel-control-prev-icon"></span>
+          </div>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#header-carousel"
+          data-slide="next"
+        >
+          <div class="btn btn-lg btn-secondary btn-lg-square">
+            <span class="carousel-control-next-icon"></span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- Client Section -->
+    <section id="clients" class="container-fluid py-5">
+      <div class="client-section-heading">
+        <h3>Some of our clients</h3>
+      </div>
+      <div class="client-carousel owl-carousel owl-theme">
+        <div class="logo-container item">
+          <img src="img\clients\client1.jpeg" alt="" />
+        </div>
+        <div class="logo-container item">
+          <img src="img\clients\client2.jpeg" alt="" />
+        </div>
+        <div class="logo-container item">
+          <img src="img\clients\client3.jpeg" alt="" />
+        </div>
+        <div class="logo-container item">
+          <img src="img\clients\client4.jpeg" alt="" />
+        </div>
+        <div class="logo-container item">
+          <img src="img\clients\client5.jpeg" alt="" />
+        </div>
+        <div class="logo-container item">
+          <img src="img\clients\client6.jpeg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-5">
+            <img class="img-fluid rounded" src="img/home-pg-about.jpg" alt="" />
+          </div>
+          <div class="col-lg-7 mt-4 mt-lg-0">
+            <h2
+              class="position-relative text-center bg-white text-primary rounded p-3 mt-4 mb-4 d-none d-lg-block"
+              style="width: 350px; margin-left: -205px"
+            >
+              Since 2011
+            </h2>
+            <h6 class="text-uppercase">About</h6>
+            <h1 class="mb-4">Excello Engineering</h1>
+            <p>
+              We specialize in LPG engineering services. Founded in 2011, the
+              company has grown into a household name in the LPG engineering
+              industry and provides engineering services to well established
+              institutions, including Goil. . . .
+            </p>
+            <a href="about.html#about-excello" class="btn btn-primary mt-2"
+              >Read More</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Services Start -->
+    <div id="services" class="container-fluid py-5">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-3">
+            <h6 class="text-uppercase">Our Services</h6>
+            <h1 class="mb-4">EXPERTISE</h1>
+            <p>
+              We provide LPG engineering services to all LPG consumers: schools,
+              estate developers & architects, bakery & restaurants, factories,
+              hoteliers and more.
+            </p>
+            <a href="#services" class="btn btn-primary mt-2">See More</a>
+          </div>
+          <div class="col-lg-9 pt-5 pt-lg-0">
+            <div class="bg-primary rounded" style="height: 200px"></div>
+            <div
+              class="owl-carousel services-carousel position-relative"
+              style="margin-top: -100px; padding: 0 30px"
+            >
+              <div
+                class="d-flex flex-column align-items-center text-center bg-white rounded pt-4"
+              >
+                <div class="bg-secondary text-primary mt-0 mb-4">
+                  <img src="img\lpg-materials.png" alt="" />
+                </div>
+                <h5 class="mb-4 px-4">LPG materials & accessories supply</h5>
+              </div>
+              <div
+                class="d-flex flex-column align-items-center text-center bg-white rounded pt-4"
+              >
+                <div class="bg-secondary text-primary mt-0 mb-4">
+                  <img src="img\gas-metering.jpg" alt="" />
+                </div>
+                <h5 class="mb-4 px-4">Gas metering & monitoring</h5>
+              </div>
+              <div
+                class="d-flex flex-column align-items-center text-center bg-white rounded pt-4"
+              >
+                <div class="bg-secondary text-primary mt-0 mb-4">
+                  <img src="img\gas-equipment.jpg" alt="" />
+                </div>
+                <h5 class="mb-4 px-4">Gas equipment set up</h5>
+              </div>
+              <div
+                class="d-flex flex-column align-items-center text-center bg-white rounded pt-4"
+              >
+                <div class="bg-secondary text-primary mt-0 mb-4">
+                  <img src="img\lpg-plumbing.jpg" alt="" />
+                </div>
+                <h5 class="mb-4 px-4">General LPG plumbing</h5>
+              </div>
+              <div
+                class="d-flex flex-column align-items-center text-center bg-white rounded pt-4"
+              >
+                <div class="bg-secondary text-primary mt-0 mb-4">
+                  <img src="img\centralized-reticulated.png" alt="" />
+                </div>
+                <h5 class="mb-4 px-4">Centralize/reticulation gas systems</h5>
+              </div>
+              <div
+                class="d-flex flex-column align-items-center text-center bg-white rounded pt-4"
+              >
+                <div class="bg-secondary text-primary mt-0 mb-4">
+                  <img src="img\bulk-tank-supply.jpg" alt="" />
+                </div>
+                <h5 class="mb-4 px-4">Bulk tank supply & installation</h5>
+              </div>
+              <div
+                class="d-flex flex-column align-items-center text-center bg-white rounded pt-4"
+              >
+                <div class="bg-secondary text-primary mt-0 mb-4">
+                  <img src="img\lpg-safety-device.jpg" alt="" />
+                </div>
+                <h5 class="mb-4 px-4">LPG safety devices installations</h5>
+              </div>
+              <div
+                class="d-flex flex-column align-items-center text-center bg-white rounded pt-4"
+              >
+                <div class="bg-secondary text-primary mt-0 mb-4">
+                  <img src="img\HVAC2-scaled.jpg" alt="" />
+                </div>
+                <h5 class="mb-4 px-4">HVAC/M.E.P</h5>
+              </div>
+              <div
+                class="d-flex flex-column align-items-center text-center bg-white rounded pt-4"
+              >
+                <div class="bg-secondary text-primary mt-0 mb-4">
+                  <img src="img\gas-detector.jpg" alt="" />
+                </div>
+                <h5 class="mb-4 px-4">Gas detection services</h5>
+              </div>
+              <div
+                class="d-flex flex-column align-items-center text-center bg-white rounded pt-4"
+              >
+                <div class="bg-secondary text-primary mt-0 mb-4">
+                  <img src="img\Industrial-furnace.webp" alt="" />
+                </div>
+                <h5 class="mb-4 px-4">Industrial furnace installation</h5>
+              </div>
+              <div
+                class="d-flex flex-column align-items-center text-center bg-white rounded pt-4"
+              >
+                <div class="bg-secondary text-primary mt-0 mb-4">
+                  <img src="img\plant-design.jpg" alt="" />
+                </div>
+                <h5 class="mb-4 px-4">LPG plant design & set up</h5>
+              </div>
+              <div
+                class="d-flex flex-column align-items-center text-center bg-white rounded pt-4"
+              >
+                <div class="bg-secondary text-primary mt-0 mb-4">
+                  <img src="img\boiler.jpg" alt="" />
+                </div>
+                <h5 class="mb-4 px-4">Industrial gas boilers installation</h5>
+              </div>
+              <div
+                class="d-flex flex-column align-items-center text-center bg-white rounded pt-4"
+              >
+                <div class="bg-secondary text-primary mt-0 mb-4">
+                  <img src="img\fire-suppression.jpg" alt="" />
+                </div>
+                <h5 class="mb-4 px-4">Fire suppression systems</h5>
+              </div>
+              <div
+                class="d-flex flex-column align-items-center text-center bg-white rounded pt-4"
+              >
+                <div class="bg-secondary text-primary mt-0 mb-4">
+                  <img src="img\kitchen-setup3.png" alt="" />
+                </div>
+                <h5 class="mb-4 px-4">Kitchen design & set up</h5>
+              </div>
+              <!-- <div
+                class="d-flex flex-column align-items-center text-center bg-white rounded pt-4"
+              >
+                <div class="bg-secondary text-primary mt-0 mb-4">
+                  <img src="img\lawyer6.jpg" alt="" />
+                </div>
+                <h5 class="mb-4 px-4">Consultancy & technical advice</h5>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Services End -->
+
+    <!-- Features Start -->
+    <div class="container-fluid py-5">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-6" style="min-height: 500px">
+            <div class="position-relative h-100 rounded overflow-hidden">
+              <img
+                class="position-absolute w-100 h-100"
+                src="img\why-engage-us.jpg"
+                style="object-fit: cover"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6 pt-5 pb-lg-5">
+            <div class="feature-text bg-white rounded p-lg-5">
+              <!-- <h6 class="text-uppercase">Our Features</h6> -->
+              <h1 class="mb-4">WHY ENGAGE US?</h1>
+              <div class="d-flex mb-4">
+                <div
+                  class="btn-primary btn-lg-square px-3"
+                  style="border-radius: 50px"
+                >
+                  <h5 class="text-secondary m-0">01</h5>
+                </div>
+                <div class="ml-4">
+                  <h5 class="experience"></h5>
+                  <p class="m-0">
+                    We are a trusted LPG engineering partner to reputable
+                    institutions, including Goil, Clifton homes, Newco catering
+                    & logistics, Servair Ghana and more.
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex mb-4">
+                <div
+                  class="btn-primary btn-lg-square px-3"
+                  style="border-radius: 50px"
+                >
+                  <h5 class="text-secondary m-0">02</h5>
+                </div>
+                <div class="ml-4">
+                  <h5>Your safety is our priority</h5>
+                  <p class="m-0">
+                    We procure & use LPG materials and accessories from major
+                    LPG manufacturers in Europe, America and United Kingdom, all
+                    with ISO certification.
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div
+                  class="btn-primary btn-lg-square px-3"
+                  style="border-radius: 50px"
+                >
+                  <h5 class="text-secondary m-0">03</h5>
+                </div>
+                <div class="ml-4">
+                  <h5>We are a reliable partner</h5>
+                  <p class="m-0">
+                    We do not just provide you engineering services, we build a
+                    lasting relationship, and prompt in attending to your call,
+                    when you need us.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Features End -->
+
+    <!-- Action Start -->
+    <div class="container-fluid py-5">
+      <div class="container py-5">
+        <div class="bg-action rounded" style="height: 500px">
+          <div class="row h-100 align-items-center justify-content-center">
+            <div class="col-lg-7 text-center">
+              <h1 class="text-white mb-4">
+                Give us a call, and let's set up a meeting.
+              </h1>
+              <a
+                class="btn btn-primary py-3 px-5 mt-2"
+                href="tel: +233246686623"
+                >CALL NOW</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Action End -->
+
+    <!-- Team Start -->
+    <div id="team" class="container-fluid py-5">
+      <div class="container py-5">
+        <div class="text-center pb-2">
+          <h6 class="text-uppercase">Engineers & Staff</h6>
+          <h1 class="mb-4">Meet Our Team</h1>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="bg-primary rounded" style="height: 200px"></div>
+            <div
+              class="owl-carousel team-carousel position-relative"
+              style="margin-top: -97px; padding: 0 30px"
+            >
+              <div
+                class="team-item text-center bg-white rounded overflow-hidden pt-4"
+              >
+                <h5 class="mb-2 px-4">Name</h5>
+                <p class="mb-3 px-4">Designation</p>
+                <div class="team-img position-relative">
+                  <img class="img-fluid" src="img/team-img.jpg" alt="" />
+                  <div class="team-social">
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="team-item text-center bg-white rounded overflow-hidden pt-4"
+              >
+                <h5 class="mb-2 px-4">Name</h5>
+                <p class="mb-3 px-4">Designation</p>
+                <div class="team-img position-relative">
+                  <img class="img-fluid" src="img/team-img.jpg" alt="" />
+                  <div class="team-social">
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="team-item text-center bg-white rounded overflow-hidden pt-4"
+              >
+                <h5 class="mb-2 px-4">Name</h5>
+                <p class="mb-3 px-4">Designation</p>
+                <div class="team-img position-relative">
+                  <img class="img-fluid" src="img/team-img.jpg" alt="" />
+                  <div class="team-social">
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="team-item text-center bg-white rounded overflow-hidden pt-4"
+              >
+                <h5 class="mb-2 px-4">Name</h5>
+                <p class="mb-3 px-4">Designation</p>
+                <div class="team-img position-relative">
+                  <img class="img-fluid" src="img/team-img.jpg" alt="" />
+                  <div class="team-social">
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="team-item text-center bg-white rounded overflow-hidden pt-4"
+              >
+                <h5 class="mb-2 px-4">Name</h5>
+                <p class="mb-3 px-4">Designation</p>
+                <div class="team-img position-relative">
+                  <img class="img-fluid" src="img/team-img.jpg" alt="" />
+                  <div class="team-social">
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Team End -->
+
+    <!-- Testimonial Start -->
+    <!-- <div class="container-fluid py-5">
+      <div class="container py-5">
+        <div class="text-center pb-5">
+          <h6 class="text-uppercase">Testimonial</h6>
+          <h1 class="mb-5">What Our Clients Say</h1>
+        </div>
+        <div class="owl-carousel testimonial-carousel">
+          <div class="testimonial-item">
+            <div
+              class="testimonial-text position-relative bg-secondary text-light rounded p-5 mb-4"
+            >
+              Sed ea amet kasd elitr stet nonumy, stet rebum et ipsum est duo
+              elitr clita lorem
+            </div>
+            <div class="d-flex align-items-center pt-3">
+              <img
+                class="img-fluid rounded-circle"
+                src="img/testimonial-1.jpg"
+                style="width: 80px; height: 80px"
+                alt=""
+              />
+              <div class="pl-4">
+                <h5>Client Name</h5>
+                <p class="m-0">Profession</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-item">
+            <div
+              class="testimonial-text position-relative bg-secondary text-light rounded p-5 mb-4"
+            >
+              Sed ea amet kasd elitr stet nonumy, stet rebum et ipsum est duo
+              elitr clita lorem
+            </div>
+            <div class="d-flex align-items-center pt-3">
+              <img
+                class="img-fluid rounded-circle"
+                src="img/testimonial-2.jpg"
+                style="width: 80px; height: 80px"
+                alt=""
+              />
+              <div class="pl-4">
+                <h5>Client Name</h5>
+                <p class="m-0">Profession</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-item">
+            <div
+              class="testimonial-text position-relative bg-secondary text-light rounded p-5 mb-4"
+            >
+              Sed ea amet kasd elitr stet nonumy, stet rebum et ipsum est duo
+              elitr clita lorem
+            </div>
+            <div class="d-flex align-items-center pt-3">
+              <img
+                class="img-fluid rounded-circle"
+                src="img/testimonial-3.jpg"
+                style="width: 80px; height: 80px"
+                alt=""
+              />
+              <div class="pl-4">
+                <h5>Client Name</h5>
+                <p class="m-0">Profession</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-item">
+            <div
+              class="testimonial-text position-relative bg-secondary text-light rounded p-5 mb-4"
+            >
+              Sed ea amet kasd elitr stet nonumy, stet rebum et ipsum est duo
+              elitr clita lorem
+            </div>
+            <div class="d-flex align-items-center pt-3">
+              <img
+                class="img-fluid rounded-circle"
+                src="img/testimonial-4.jpg"
+                style="width: 80px; height: 80px"
+                alt=""
+              />
+              <div class="pl-4">
+                <h5>Client Name</h5>
+                <p class="m-0">Profession</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- Testimonial End -->
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid bg-secondary text-white pt-5 px-sm-3 px-md-5"
+      style="margin-top: 90px"
+    >
+      <div class="row mt-5">
+        <div class="col-lg-4">
+          <div
+            class="d-flex justify-content-lg-center p-4"
+            style="background: rgba(256, 256, 256, 0.05)"
+          >
+            <i class="fa fa-2x fa-map-marker-alt text-primary"></i>
+            <div class="ml-3">
+              <h5 class="text-white">Post Office Box</h5>
+              <p class="m-0">Box WJ 167, Weija—Accra</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div
+            class="d-flex justify-content-lg-center p-4"
+            style="background: rgba(256, 256, 256, 0.05)"
+          >
+            <i class="fa fa-2x fa-envelope-open text-primary"></i>
+            <div class="ml-3">
+              <h5 class="text-white">Email Us</h5>
+              <p class="m-0">info@excelloengineering.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div
+            class="d-flex justify-content-lg-center p-4"
+            style="background: rgba(256, 256, 256, 0.05)"
+          >
+            <i class="fa fa-2x fa-phone-alt text-primary"></i>
+            <div class="ml-3">
+              <h5 class="text-white">Call Us</h5>
+              <p class="m-0">+233 30 294 4325 / +233 24 668 6623</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row pt-5">
+        <div class="col-lg-3 col-md-6 mb-5">
+          <p>You can check us out on our social media handles</p>
+          <div class="d-flex justify-content-start mt-4">
+            <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a class="btn btn-lg btn-outline-light btn-lg-square" href="#"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+          <h4
+            class="font-weight-semi-bold text-primary mb-4"
+            style="color: white"
+          >
+            Navigation Links
+          </h4>
+          <div class="d-flex flex-column justify-content-start">
+            <a class="text-white mb-2" href="index.html"
+              ><i class="fa fa-angle-right mr-2"></i>Home</a
+            >
+            <a class="text-white mb-2" href="about.html"
+              ><i class="fa fa-angle-right mr-2"></i>About</a
+            >
+            <a class="text-white mb-2" href="#services"
+              ><i class="fa fa-angle-right mr-2"></i>Services</a
+            >
+            <a class="text-white mb-2" href="#team"
+              ><i class="fa fa-angle-right mr-2"></i>Our Team</a
+            >
+            <a class="text-white" href="contact.html"
+              ><i class="fa fa-angle-right mr-2"></i>Contact</a
+            >
+          </div>
+        </div>
+        <!-- <div class="col-lg-3 col-md-6 mb-5">
+          <h4 class="font-weight-semi-bold text-primary mb-4">Quick Links</h4>
+          <div class="d-flex flex-column justify-content-start">
+            <a class="text-white mb-2" href="#"
+              ><i class="fa fa-angle-right mr-2"></i>FAQs</a
+            >
+            <a class="text-white mb-2" href="#"
+              ><i class="fa fa-angle-right mr-2"></i>Help</a
+            >
+            <a class="text-white mb-2" href="#"
+              ><i class="fa fa-angle-right mr-2"></i>Terms</a
+            >
+            <a class="text-white mb-2" href="#"
+              ><i class="fa fa-angle-right mr-2"></i>Privacy</a
+            >
+            <a class="text-white" href="#"
+              ><i class="fa fa-angle-right mr-2"></i>Site Map</a
+            >
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+          <h4 class="font-weight-semi-bold text-primary mb-4">Newsletter</h4>
+          <p>
+            Rebum labore lorem dolores kasd est, et ipsum amet et at kasd, ipsum
+            sea tempor magna tempor. Accu kasd sed ea duo ipsum.
+          </p>
+          <div class="w-100">
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control border-0"
+                style="padding: 25px"
+                placeholder="Your Email"
+              />
+              <div class="input-group-append">
+                <button class="btn btn-primary px-4">Sign Up</button>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+      <div
+        class="row p-4 mt-5 mx-0"
+        style="background: rgba(256, 256, 256, 0.05)"
+      >
+        <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+          <p id="copyright-text" class="m-0 text-white">
+            &copy;
+            <a class="font-weight-bold" href="#" style="color: orange"
+              >Excello Engineering</a
+            >. All Rights Reserved.
+          </p>
+        </div>
+        <div class="col-md-6 text-center text-md-right">
+          <p class="m-0 text-white">
+            Developed by:
+            <a
+              class="font-weight-bold"
+              href="https://innosoltechgh.com"
+              style="color: orange"
+              >Innosol Technologies</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary px-3 back-to-top"
+      ><i class="fa fa-angle-double-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
